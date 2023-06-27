@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>RemindMe</title>
+    <link rel="stylesheet" href="notetoself.css">
+    
+  </head>
+  <body>
+    <h1 id="title"><em>Remind</em>Me</h1>
+    <form>
+
+      <label for="note_color">Color: </label>
+      <select id="note_color">
+        <option value="LightGoldenRodYellow">Students/Yellow</option>
+        <option value="PaleGreen">Family/Green</option>
+        <option value="LightPink">Leisure/Pink</option>
+        <option value="LightBlue">Admin/Blue</option>
+      </select>
+      <input type="text" id="note_text" placeholder="Thing you need to remember">
+      <input type="button" id="add_button" value="Add Sticky Note to Self">
+      <input type="button" id="clear_button" value="Clear All">
+
+    </form>
+
+    <ul id="stickies">
+
+    </ul>
+
+  </body>
+  <script src="notetoself.js"></script>
+</html>
